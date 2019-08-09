@@ -1,11 +1,47 @@
 .header {
-    background-color: aqua;
-    width: 150px;
-    height: 200px;
-    border: 1px solid gray;
-
+    display: flex;
+    margin-top: 1.5rem;
 }
 
 .logoMenu {
-    
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 3rem;
+    margin-right: 15rem;
+    transform: scale(-1)
+}
+
+.selectCountries {
+    width: 10rem;
+    height: 1.8rem;
+    outline: none; 
+    border: none;
+    appearance: none;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.search {
+    width: 17rem;
+    height: 1.8rem;
+    outline: none; 
+    background-color: #f8f8f8;
+    border: none;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.logoSearch {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.searchMenu {
+    background-color: aqua;
+    border-radius: 0.7rem;
+    background-color: #f8f8f8;
+    align-content: center;
 }
