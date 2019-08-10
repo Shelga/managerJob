@@ -15,27 +15,76 @@
     height: 1.5rem;
     margin-top: 3rem;
     margin-left: 3rem;
-
 }
 
 h1 {
     margin-top: 3rem;
     margin-left: 3rem;
-
 }
 
 .firstPart {
     width: 13rem;
-    
 }
 
 .secondPart {
     width: 13rem;
     margin-top: 1.5rem;
-    
 }
 
 .thirdPart {
     width: 13rem;
+    height: 12rem;
     margin-top: 1.5rem;
+    border-left: 0.1rem solid #7ed3df;
+    padding-left: 1.2rem;
+}
+
+.threeImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.creativeImg {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    background-image: url(https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80);
+    background-size: cover;
+}
+
+.clercImg {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    background-image: url(https://images.unsplash.com/photo-1518674660708-0e2c0473e68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80);
+    background-size: cover;
+}
+
+.plusImg {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    background-color: #fed32c;
+    background-image: url(static/plus.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1rem 1rem;
+}
+
+.seeJob {
+    background-color: #fed32c;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    
+}
+
+.borderTop {
+    border-bottom: 0.1rem solid #7ed3df;
+    padding-bottom: 0.8rem;
+}
+.textUnderImg {
+    display: flex;
+    flex-direction: row;
 }
