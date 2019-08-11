@@ -12,16 +12,23 @@ function BlueBlock() {
             </div>
             <div className="secondPart">
                 <h2>Choose the category</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue orci.<br />see more</p>
-                <div className="threeImg">
-                    <div className="creativeImg"></div>
-                    <div className="clercImg"></div>
-                    <div className="plusImg"></div>
-                    <div className="textUnderImg">
-                    <p>Creative</p>
-                    <p>Clerc</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in congue orci.<br /><a className="href" href="#">see more</a></p>
+
+
+                <div className="imgAndText">
+                    <div className="threeImg">
+                        <div className="creativeImg">
+                            <p className="creativeText">Creative</p>
+                        </div>
+                        <div className="clercImg">
+                            <p className="clercText">Clerk</p>
+                        </div>
+                        <div className="plusImg"></div>
                     </div>
+
                 </div>
+
+
             </div>
             <div className="thirdPart">
                 <h2>Recommended</h2>
