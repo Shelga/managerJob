@@ -111,6 +111,45 @@ p {
 }
 
 .moreVacanciesBlock {
-    background-color: #ae6ad6;
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 1rem;
 
+}
+
+.today {
+    width: 5rem;
+    height: 2rem;
+    background-color: #f8f8f8;
+    display: flex;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.week {
+    width: 5rem;
+    height: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.month {
+    width: 5rem;
+    height: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+   
+
+}
+
+.period {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

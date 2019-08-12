@@ -39,8 +39,11 @@ function Main() {
 
             <div className="moreVacanciesBlock">
                 <p>See more vacancies</p>
-
-
+                <div className="period">
+                    <div className="today">Today</div>
+                    <div className="week">Week</div>
+                    <div className="month">Month</div>
+                </div>
             </div>
         </div>
     );
